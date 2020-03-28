@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 public class iC implements Callable {
     @Override
     public Object call() throws Exception {
-        return "f";
+        return 1;
     }
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
